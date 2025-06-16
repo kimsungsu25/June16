@@ -1,0 +1,54 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<style>
+		#txt1{
+			width:10%;
+			height:10%;
+			color:blue;
+			font-size:7em;
+			text-align:center;
+		}
+		.b1{
+			width:10%;
+			height:10%;
+			color:blue;
+			font-size:5em;
+		}
+		</style>
+	</head>
+	<body>
+		<script>
+			function btn1()
+			{
+				document.getElementById('txt1').value='1';
+			}
+			function btn2()
+			{
+				document.getElementById('txt1').value='2';
+			}
+			function btn3()
+			{
+				document.getElementById('txt1').value='3';
+			}
+			function btn4()
+			{
+				document.getElementById('txt1').value='4';
+			}
+			function btn_CL()
+			{
+				document.getElementById('txt1').value=' ';
+			}
+		</script>
+		<h1>숫자 출력및 삭제</h1>
+		<hr>
+		<input type='text' id='txt1' value='5''><br><br><br><br>
+		<button class='b1' onclick='btn1();'>1</button>
+		<button class='b1' onclick='btn2();'>2</button>
+		<button class='b1' onclick='btn3();'>3</button>
+		<button class='b1' onclick='btn4();'>4</button>
+		<button class='b1' onclick='btn_CL();'>CL</button>
+
+	</body>
+</html>
